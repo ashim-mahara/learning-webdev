@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<form action="post">
+		<div>
+			<label for="first">First Name</label>
+			<input type="text" name="first" id="first" required>
+
+			<label for="last">Last Name</label>
+			<input type="text" name="last" id="last" required>
+		</div>
+
+		<br>
+		<label for="race">Select a Race:</label>
+		<br>
+
+		<div>
+			<input type="radio" name="race" id="fun" value="fun">
+			<label for="fun">Fun Run 5k</label>
+		</div>
+
+		<div>
+			<input type="radio" name="race" id="half" value="half">
+			<label for="fun">Half Marathon</label>
+		</div>
+
+		<div>
+			<input type="radio" name="race" id="full" value="Full Marathon">
+			<label for="full">Full Marathon</label>
+		</div>
+
+		<br>
+
+		<div>
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" required>
+
+			<label for="pass">Password</label>
+			<input type="password" name="pass" id="pass" required>
+		</div>
+
+		<br>
+
+		<div>
+			<label for="age">Select Age Group</label>
+			<select name="age" id="age">
+				<option value="kids">Under 18</option>
+				<option value="youngAdults">18-30</option>
+				<option value="adults">30-50</option>
+				<option value="seniors">50+</option>
+			</select>
+		</div>
+
+		<div>
+			<button>Submit</button>
+		</div>
+	</form>
+
+</body>
+
+</html>
